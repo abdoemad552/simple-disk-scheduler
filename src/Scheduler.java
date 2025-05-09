@@ -43,7 +43,7 @@ public class Scheduler {
     
     private static final int ARGS_COUNT = 6;
     private static final int EXIT_FAILURE = 1;
-    private static final int EXIT_SUCCESS = 1;
+    private static final int EXIT_SUCCESS = 0;
     
     private static final Scanner input = new Scanner(System.in);
     private static final Map<String, String> options = new HashMap<>();
