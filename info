@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "    ./scheduler cylinders=<value> queue=<value> random=<value> algorithm=<value> init=<value> direction=<value>"
+echo ""
+echo "    cylinders  The number of disk cylinders."
+echo "    queue      The size of queue."
+echo "    random     A boolean value (true or false). If true, the queue entries will generated randomly."
+echo "               Otherwise, the user must enter the queue entries."
+echo "    algorithm  The schduling algorithm. This can be one of three values (fcfs, scan, cscan)."
+echo "    init       The initial position of the head (must be less that the number of cylinders)."
+echo "    direction  The direction of scanning. This can be one of two values (top, down)."
+

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Schedular {
+public class Scheduler {
     enum OptionKey {
         CYLINDERS("cylinders"),
         QUEUE("queue"),

@@ -3,6 +3,6 @@
 SRC_DIR="src"
 OUT_DIR="out"
 DIST_DIR="dist"
-JAR_NAME="schedular"
-ENTRY_CLASS="Schedular"
+JAR_NAME="scheduler"
+ENTRY_CLASS="Scheduler"
 

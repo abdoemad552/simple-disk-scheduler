@@ -1,7 +1,7 @@
-# Simple Memory Allocator
+# Simple Memory Scheduler
 
 ## Overview
-This is a simple memory allocator that simulates the allocation process.
+This is a simple disk scheduler.
 
 The code is written in java 17.
 
