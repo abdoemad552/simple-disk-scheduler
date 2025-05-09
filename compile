@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source ./config
+
+rm -rf $OUT_DIR
+rm -rf $DIST_DIR
+
+mkdir $OUT_DIR
+mkdir $DIST_DIR
+
+echo "Compiling Java files..."
+javac -d $OUT_DIR $(find $SRC_DIR -name *.java)
+
+if [ $? -ne 0 ]; then
+	echo "Compilation failed."
+	exit 1
+fi
+
+jar cfm "$DIST_DIR/$JAR_NAME.jar" manifest.txt -C "$OUT_DIR/" .
+
+echo "Compiled successfully."
+

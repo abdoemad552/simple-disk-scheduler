@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ./config
+
+java -jar "$DIST_DIR/$JAR_NAME.jar" $1 $2 $3 $4 $5 $6
+
